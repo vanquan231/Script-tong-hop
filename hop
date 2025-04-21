@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id= 115086843503260",
+       Image = "http://www.roblox.com/asset/?id=81190246551914",
        Size = {50,50},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -108,11 +108,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
  Callback = function()
 getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
- end
- })
- AddButton(Tab1o, {
-   Name = "min v21",
- Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoE"))()
  end
  })
