@@ -80,3 +80,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-F
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
  end
  })
+ AddButton(Tab1o, {
+   Name = "xeterv1",
+Callback = function()
+getgenv().Version = "V1"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+ end
+ })
