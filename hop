@@ -103,3 +103,10 @@ getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
  end
  })
+ AddButton(Tab1o, {
+   Name = "hiruhup v2",
+ Callback = function()
+ getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/HiruHubVeriV2.lua"))()
+ end
+ })
