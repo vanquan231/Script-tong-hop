@@ -30,8 +30,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script tổng hợp"})
-    local Tab1o = MakeTab({Name = "Script địt nhau"})
+     local Tab1o = MakeTab({Name = "Script con heo"})
+     local Tab1o = MakeTab({Name = "Script địt nhau"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -72,5 +72,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-F
      Name = "banna-free",
     Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+ end
+ })
+  AddButton(Tab1o, {
+   Name = "tsuo7",
+ Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
  end
  })
