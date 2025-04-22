@@ -111,15 +111,3 @@ getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
  end
  })
-AddButton(Tab2o, {
-   Name = "đường ray 1",
- Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/FernHub/refs/heads/main/DeadRailsFarm", true))()
- end
-})
-AddButton(Tab2o, {
-   Name = "đường ray 2",
- Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/ducknovis/DHHz-hub/refs/heads/main/Dead-Rails.lua"))()
- end
- })
