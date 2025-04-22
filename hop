@@ -111,3 +111,17 @@ getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
  end
  })
+ AddButton(Tab2o, {
+     Name = "fix lag",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+ end
+ })
+ AddButton(Tab2o, {
+     Name = "boty",
+    Callback = function()
+getgenv().Mode = "PVP"
+getgenv().Team = "Pirates" -- Options "Marines", "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
+ end
+ })
