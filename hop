@@ -31,6 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script địt nhau"})
+     local Tab2o = MakeTab({Name = "Script hentai"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -110,3 +111,4 @@ getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
  end
  })
+
