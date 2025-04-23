@@ -55,3 +55,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/
  loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
  end
  })
+AddButton(Tab1o, {
+   Name = "null fire",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+ end
+ })
+ 
