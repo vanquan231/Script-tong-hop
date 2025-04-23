@@ -49,3 +49,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/Fer
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRailsAuto"))()
  end
 })
+ AddButton(Tab1o, {
+   Name = "aotu bond",
+  Callback = function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
+ end
+ })
