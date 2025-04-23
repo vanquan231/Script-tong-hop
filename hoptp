@@ -31,28 +31,21 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script sex"})
-     local Tab2o = MakeTab({Name = "Script hentai"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "đường ray 1",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/FernHub/refs/heads/main/DeadRailsFarm", true))()
   end
   })
   AddButton(Tab1o, {
-   Name = "w-a_levithan",
+   Name = "đường ray 2",
   Callback = function()
-getgenv().Team = "Pirates"
-getgenv().AutoLoad = false --Will Load Script On Server Hop
-getgenv().SlowLoadUi  = false
-getgenv().ForceUseSilentAimDashModifier = false --Force turn on silent aim , if error then executor problem
-getgenv().ForceUseWalkSpeedModifier = false --Force turn on Walk Speed Modifier , if error then executor problem
- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRailsAuto"))()
  end
- })
+})
