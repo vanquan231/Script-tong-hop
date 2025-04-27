@@ -41,7 +41,6 @@ task.spawn(function()
         end)
     end
 end)
-})
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script địt nhau"})
