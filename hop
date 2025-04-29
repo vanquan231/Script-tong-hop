@@ -54,14 +54,9 @@ getgenv().ForceUseWalkSpeedModifier = false --Force turn on Walk Speed Modifier 
    AddButton(Tab1o, {
      Name = "redz",
     Callback = function()
-  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
-end
-})
+  loadstring(game:HttpGet("https://pastefy.app/YLkcYFjx/raw"))()
+ end
+ })
     AddButton(Tab1o, {
      Name = "fly",
     Callback = function()
@@ -109,8 +104,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
  Callback = function()
 getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
- end
- })
+  end
+  })
  AddButton(Tab2o, {
      Name = "fix lag",
     Callback = function()
@@ -146,18 +141,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
      Name = "min v1",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoV"))()
-end 
-})
-AddButton(Tab2o, {
+ end 
+ })
+  AddButton(Tab2o, {
      Name = "min v2,
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoV"))()
  end
-})
-AddButton(Tab2o, {
-     Name = "nhật trái",
+ })
+   AddButton(Tab2o, {
+     Name = "nhặt trái",
     Callback = function
 getgenv().Team = "Pirates"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/FindFruit.lua"))()
-end
-})
+ end
+ })
