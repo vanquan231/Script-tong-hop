@@ -60,8 +60,8 @@ getgenv().ForceUseWalkSpeedModifier = false --Force turn on Walk Speed Modifier 
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
- end
-  })
+end
+})
     AddButton(Tab1o, {
      Name = "fly",
     Callback = function()
