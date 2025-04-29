@@ -142,3 +142,22 @@ AddButton(Tab2o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()
  end
  })
+ AddButton(Tab2o, {
+     Name = "min v1",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoV"))()
+end 
+})
+AddButton(Tab2o, {
+     Name = "min v2,
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoV"))()
+ end
+})
+AddButton(Tab2o, {
+     Name = "nhật trái",
+    Callback = function
+getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/FindFruit.lua"))()
+end
+})
