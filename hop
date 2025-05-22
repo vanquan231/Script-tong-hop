@@ -144,14 +144,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
  end 
  })
   AddButton(Tab2o, {
-     Name = "min v2,
+     Name = "min v2",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoV"))()
  end
  })
    AddButton(Tab2o, {
      Name = "nhặt trái",
-    Callback = function
+    Callback = function()
 getgenv().Team = "Pirates"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/FindFruit.lua"))()
  end
