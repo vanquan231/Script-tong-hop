@@ -154,6 +154,4 @@ getgenv().Team = "Pirates"
 getgenv().Team = "Pirates"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/refs/heads/main/BF-Main.luau"))()Copied!
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/FindFruit.lua"))()
- end
- })
+})
